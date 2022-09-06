@@ -1,7 +1,5 @@
 import 'dart:developer';
 import 'dart:isolate';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -12,7 +10,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Isolate Demo"),
+        title: const Text("Isolate Using Spawn"),
       ),
       body: Center(
         child: Column(
